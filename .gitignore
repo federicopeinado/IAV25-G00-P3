@@ -2,6 +2,7 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
+.utmp/
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
@@ -71,3 +72,8 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Ignoramos el paquete de pago Behavior Designer, que habrá que descargar desde Drive y sólo con persmiso
+/[Aa]ssets/[Bb]ehavior [Dd]esigner/*
+/[Aa]ssets/[Bb]ehavior [Dd]esigner [Ss]amples/*
+/[Aa]ssets/[Bb]ehavior [Dd]esigner [Tt]utorials/*
