@@ -954,7 +954,7 @@ GameObject:
   - component: {fileID: 3576288450122217075}
   - component: {fileID: 355967702596757054}
   - component: {fileID: 685090927300085920}
-  - component: {fileID: 8469017119147052725}
+  - component: {fileID: 5605333427929182830}
   m_Layer: 0
   m_Name: AIJohnLemon
   m_TagString: Untagged
@@ -1155,7 +1155,7 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6077229646317852079}
   m_Enabled: 1
---- !u!114 &8469017119147052725
+--- !u!114 &5605333427929182830
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1174,16 +1174,16 @@ MonoBehaviour:
   logTaskChanges: 0
   group: 0
   resetValuesOnRestart: 0
-  externalBehavior: {fileID: 0}
+  externalBehavior: {fileID: 11400000, guid: 649c250de5ca2e44f93fa16d474b249b, type: 2}
   mBehaviorSource:
-    behaviorName: JohnLemonBT
+    behaviorName: ComportamientoProta
     behaviorDescription: 
     mTaskData:
       types: []
       parentIndex: 
       startIndex: 
       variableStartIndex: 
-      JSONSerialization: '{}'
+      JSONSerialization: 
       fieldSerializationData:
         typeName: []
         fieldNameHash: 
@@ -1192,9 +1192,9 @@ MonoBehaviour:
         unityObjects: []
         byteData: 
         byteDataArray: 
-      Version: 1.7.12
-  gizmoViewMode: 2
-  showBehaviorDesignerGizmo: 1
+      Version: 
+  gizmoViewMode: 0
+  showBehaviorDesignerGizmo: 0
 --- !u!1 &7028247037451646163
 GameObject:
   m_ObjectHideFlags: 0
